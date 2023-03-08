@@ -1,7 +1,10 @@
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js';
 import { getAuth } from 'https://www.gstatic.com/firebasejs/9.17.1/firebase-auth.js';
 
- // TODO: Replace the following with your app's Firebase project configuration
+
+
+
+// TODO: Replace the following with your app's Firebase project configuration
 // See: https://firebase.google.com/docs/web/learn-more#config-object
 const firebaseConfig = {
     
@@ -13,6 +16,7 @@ const firebaseConfig = {
         appId: "1:897242151795:web:848c3fca51d9f3ab572306"
       
 };
+
 
 // Initialize Firebase
 export const app = initializeApp(firebaseConfig);
